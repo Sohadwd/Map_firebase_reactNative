@@ -54,9 +54,8 @@
 		C2BF69989F9446CBA8035D42 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5885C5CDA5C64F7F973DA8D1 /* Foundation.ttf */; };
 		EAFE7EC5DB304ED190BE5B6E /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B479DD9A404A47C7AA01BECF /* EvilIcons.ttf */; };
 		F45900F6CBD54F529681DD5E /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36FA71593923427EAAAA2685 /* MaterialIcons.ttf */; };
-		FA1D1DEA219745D000BC6FE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA1D1DC3219745D000BC6FE8 /* GoogleService-Info.plist */; };
+		FA0881DD219840FB00404B7D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA0881DC219840FB00404B7D /* GoogleService-Info.plist */; };
 		FA957C8AF5524D6F84CF4A6A /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF5AD6871629435297755D95 /* Octicons.ttf */; };
-		FAB0415A2194BC7600965D2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB041342194BC7600965D2F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -388,9 +387,8 @@
 		DA2E185D5612420185808D0F /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		E93D56E5E2EC470FB0357354 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		EE1B93EED02D41FA926AFF07 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		FA1D1DC3219745D000BC6FE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA0881DC219840FB00404B7D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA2217360708486DAF6785F0 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		FAB041342194BC7600965D2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -531,9 +529,8 @@
 		13B07FAE1A68108700A75B9A /* leanNode */ = {
 			isa = PBXGroup;
 			children = (
-				FAB041342194BC7600965D2F /* GoogleService-Info.plist */,
-				FA1D1DC3219745D000BC6FE8 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				FA0881DC219840FB00404B7D /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -1166,7 +1163,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				FAB0415A2194BC7600965D2F /* GoogleService-Info.plist in Resources */,
 				2DBF7786C4994DB7BF2089BE /* AntDesign.ttf in Resources */,
 				766C6A9E45A0499D90120A24 /* Entypo.ttf in Resources */,
 				EAFE7EC5DB304ED190BE5B6E /* EvilIcons.ttf in Resources */,
@@ -1175,8 +1171,8 @@
 				5263E22B7EB54B8999591CF8 /* FontAwesome5_Brands.ttf in Resources */,
 				0BFAFC92EDC24752BF1ACDF3 /* FontAwesome5_Regular.ttf in Resources */,
 				7A975381FB6D436C9709730D /* FontAwesome5_Solid.ttf in Resources */,
-				FA1D1DEA219745D000BC6FE8 /* GoogleService-Info.plist in Resources */,
 				C2BF69989F9446CBA8035D42 /* Foundation.ttf in Resources */,
+				FA0881DD219840FB00404B7D /* GoogleService-Info.plist in Resources */,
 				9FFCAE4B04D44D26B482CF64 /* Ionicons.ttf in Resources */,
 				7B67641AD2E7410D893584FD /* MaterialCommunityIcons.ttf in Resources */,
 				F45900F6CBD54F529681DD5E /* MaterialIcons.ttf in Resources */,
